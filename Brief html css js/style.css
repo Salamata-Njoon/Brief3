@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Page d'acceuil*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, ul, li, a, header{
+    box-sizing: border-box;
+    height: 70px;
+}
+
+#Accueil{
+background-image: url("background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#Accueil h1{
+    text-align: center;
+    margin-bottom:-2px;
+    justify-content: center;
+    display: block;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: #3C2C3E;
+}
+
+.contacter {
+    background-color: #3D84A8;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 5px;
+    font-size: 14px;
+    cursor: pointer;
+    height: 60px;
+ 
+  }
+  
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#menu li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img{
+width: 60px;
+height: 60px;
+border-radius: 2px;}
+    
+
+/*Style css pour la page hebergement*/
+
+section{
+    width: 100%;
+    float: left;
+    height: 1200px;
+    position: relative;
+}
+
+#Accueil{
+   background-color: #ede4ee;
+   height: 800px;
+
+}
+
+#Guidevoyage{
+     background-color: #ED6663;
+}
+
+#Hebergement{
+     background-color: #ede0e6;
+    
+}
+#Hebergement h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+}
+
+#Contact{
+     background-color:#ede4ee;
+     margin-bottom: 20px;
+    
+}
+
+.grid{
+max-width: 1200px;
+width: 80%;;
+height: auto;
+margin: 30px auto;
+border:1px  #470650;
+display: grid ;
+grid-template-columns: repeat(auto-fill,300px);
+justify-content: center;
+grid-gap:100px;
+grid-gap:  100px 50px ;
+
+}
+
+
+.grid-items:hover {width: 300px;
+    height: 200px;
+    background: #b4a7b5;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.grid-items {
+    width: 300px;
+    height: 200px;
+    background: #b4a7b5;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.grid-items img{
+    width: 300px;
+    height: 200px;
+    background: #b4a7b5;
+    border-radius: 5px;
+    box-shadow: #5f0d6a;
+}
+
+.grid-items img{width: 300px;
+    height: 200px;
+    background: #b4a7b5;
+    border-radius: 5px;
+   cursor: pointer;
+}
+
+#Accueil h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0;
+    height: 1000px;
+    color:whitesmoke;
+}
+   
+
+h2{
+    text-align: left;
+    color: #1752dc;
+}
+
+/*page guide de voyage*/
+
+#GuideVoyage{ background-color: #f7e5f9;
+    height: 700px;
+margin-top: auto;}
+.guide .Enteteguide{
+background-color: #3C2C3E; 
+color: #ebf0eb;
+height: 50px;
+text-align: center;
+font-size: 30px;}
+
+#Apropos{
+    height: 900px;
+    text-align: center;
+   background-color: #d5cdd6;
+}
+#Apropos p {
+   font-size: 40px;
+    text-align: center;
+
+}
+#Apropos h1{font-size: 60px;
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+ 
+
+  figure:hover img {
+    transform: scale(1.1);
+  }
+
+
+  .image img {
+    width: 300px;
+    height: 300px;
+    display: block;
+   flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .image figcaption {
+    font-size: 20px;
+    font-weight: Arial;
+    text-align: center;
+  }
+
+/*Page de contact*/
+#Contact{
+background-image: url('fin.jfif');
+background-repeat: no-repeat;
+background-size: cover;
+height: 550px;}
+
+
+.form {
+    width: 400px;
+    height: 400px;
+    background-color: #ebf0eb;
+    border: 1px solid #fcfeff;
+    border-radius: 2px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 110px;
+    border-radius: 30px;
+    justify-content: center;
+  }
+
+  input{
+    width: 250px;
+    height: 30px;
+    border: solid 2px #1b6a9b ;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  footer{
+    text-align: center;
+    background-color:white;
+    height: 50px;
+}
+.btn{
+background-color: #3D84A8;
+color: #FFF;
+border: none;
+border-radius: 5px;
+margin: 10px 0;
+font-size: 14px;
+cursor: pointer;
+width: 250px;
+height: 30px;}
+
+.text{
+    color: white ;
+ text-align: center;
+ margin-top: 15%;
+ margin-left: 2px;
+ letter-spacing: 1px;
+ font-size: 25px;
+ font-weight: 700;
+}
+
